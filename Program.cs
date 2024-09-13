@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            string name, haircolor, weight, height, age ; 
-        }Age
+            
+            int roomNumber = 42;
+            double price = 2.99;
+            string courseName = "Computer Science";
+
+            Console.WriteLine("This is room #" + roomNumber);
+        }
     }
 }
