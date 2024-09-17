@@ -23,9 +23,19 @@
 
             int radius;
             double area; 
-            radius = 5;
-            area = 78.54;
-            Console.WriteLine(area = Math.PI * (radius * 2));
+            radius = 4;
+            area = 50.27;
+            Console.WriteLine(area = Math.PI * (radius * radius));
+
+            double bottom;
+            double height;
+            double triangleArea;
+
+            triangleArea = 17.5;
+            height = 7;
+            bottom = 5;
+
+            Console.WriteLine(triangleArea = bottom * height / 2);
         }
     }
 }
